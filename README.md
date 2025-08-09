@@ -1,76 +1,70 @@
-# Portfolio Website – Haris F. Watson
+# Getting Started with Create React App
 
-This repository contains the source code and assets for a **React-based** personal portfolio website.  
-The design showcases the work and services of **Designer Haris F. Watson** while using a modern, clean, and professional layout.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
----
+## Available Scripts
 
-## 📌 Overview
+In the project directory, you can run:
 
-The portfolio app is built with **React** and structured to present:
-- An **introductory hero section** with a professional image, name, and short bio.
-- A **description** of design philosophy and invitation for contact.
-- A **gallery of projects** (in this version, example images of traditional clothing).
-- A **services section** outlining offerings.
-- A **contact form** and footer with email and address.
+### `npm start`
 
----
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## 🖼️ Sections Breakdown
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-### 1. **Header & Navigation**
-- Logo and site name: **PORTFOLIO**
-- Menu links: `Home`, `About`, `Services`, `More info`, `Services` button.
+### `npm test`
 
-### 2. **Hero Section**
-- Large intro text: *"I'm Designer Haris F. Watson"*
-- Subheading and brief description.
-- Two buttons for primary and secondary actions: **Danger** and **Warning**.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### 3. **About / Philosophy**
-- Text about designing with passion while exploring the world.
-- Contact invitation: **"Late talk with me"** and email link.
+### `npm run build`
 
-### 4. **Projects Gallery**
-- Six sample project images (here represented by photos of traditional Macedonian clothing with captions and years).
-- Each project has a **"More info"** button.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-### 5. **Services**
-- Three cards outlining possible service categories.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-### 6. **Call to Action**
-- Motivational heading: *"If Not Now, When? Let’s Work Together!"*
-- Signature graphic.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### 7. **Contact Form**
-- Fields: Name, Email, Message.
-- Submit button: **Send Message**.
+### `npm run eject`
 
-### 8. **Footer**
-- Contact email: **hireme@portfolio.com**
-- Address placeholder.
-- Copyright.
-- Note: Template made by **Colorlib**.
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
----
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-## ⚙️ Technologies Used
-- **React** – Frontend framework for building the UI.
-- **React Router** – Navigation between sections/pages (if applicable).
-- **CSS3 / SCSS** – Styling and layout.
-- **Bootstrap / React-Bootstrap** (likely) – Responsive grid and UI components.
-- **JavaScript (ES6+)** – Functionality and interactivity.
-- **Netlify** – Hosting platform.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
----
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## 🚀 Getting Started
+## Learn More
 
-### Prerequisites
-- Node.js (v16 or newer)
-- npm or yarn package manager
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-### Installation
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/yourusername/portfolio-site.git
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

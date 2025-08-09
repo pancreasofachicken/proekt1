@@ -1,0 +1,113 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* about */
+.centar{
+  text-align: center;
+  color: brown;
+  padding: 50px 150px;
+}
+.centarr{
+   padding: 50px 150px;
+}
+.card img{
+  object-fit: cover;
+  border-radius: 100%;
+}
+#banner{
+  background-image: url(./assets/img/h1_hero.jpg.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: scroll;
+  height: 600px;
+
+}
+/* services */
+.row1{
+  width: 100%;
+  height: 300px;
+  background-color: rgba(165, 42, 42, 0.371);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.row1 p{
+  padding: 10px;
+}
+
+/* contact */
+.row1{
+  width: 100%;
+  height: 300px;
+  background-color: rgba(165, 42, 42, 0.371);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.row1 div{
+  background-color: #a5a5a5;
+  padding: 10px;
+  width: 48%;
+  height: 250px;
+}
+/* projects */
+.bgnew{
+  background: linear-gradient(0deg, rgba(165, 42, 42, 0.321), rgba(165, 42, 42, 0.299)), url(https://preview.colorlib.com/theme/personalportfolio/assets/img/gallery/section_bg02.jpg.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: scroll;
+  height: 250px;
+}
+.pnew{
+  padding: 30px 150px!important;
+}
+.h1{
+  font-family: "Rufina", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.background{
+  background-color: #080827;
+  height: 500px;
+}
